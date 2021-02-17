@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap');
+
+.wrap {
+  font-family: 'Manrope', sans-serif;
+  margin: auto;
+  max-width: 800px;
+  background: #87CEEB;
+  display: flex;
+  flex-direction: column;
+  padding: 0 10px;
+}
+
+.header {
+  color: #f50057;
+  text-align: center;
+  font-weight: 100;
+  font-size: 90px;
+  flex: 4;
+}
+
+.todosWrap {
+    margin: auto;
+    max-width: 550px;
+    background :#fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    flex: 4;
+}
+
+.imgBlock {
+    min-height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.whsLogo {
+    height: 27px;
+    width: 103px;
+    padding: 5px 10px;
+}
+
+@media(max-width: 630px) {
+  
+    .header {
+        font-size: 50px;
+    }
+}
+
+
+@media(max-width: 532px) {
+
+    .header {
+        font-size: 30px;
+    }
+    .todosWrap {
+
+        margin: 0;
+
+    }
+  }
